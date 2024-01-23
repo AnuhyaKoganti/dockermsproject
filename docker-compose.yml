@@ -14,7 +14,7 @@ services:
     deploy:
       replicas: 3
   recharge:
-    image: anuhykoganti/rechargepaytm:latest
+    image: anuhyakoganti/rechargepaytm:latest
     ports:
       - 87:80
     deploy:
